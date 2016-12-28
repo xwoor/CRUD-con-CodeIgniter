@@ -8,7 +8,7 @@
 	<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/jquery-3.1.1.min.js"></script>
 </head>
 <body>
-<nav class="navbar navbar-negative" role="navigation">
+<nav class="navbar navbar-inverse" role="navigation">
   <!-- El logotipo y el icono que despliega el menú se agrupan
        para mostrarlos mejor en los dispositivos móviles -->
   <div class="navbar-header">
@@ -18,8 +18,7 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-    </button>
-    <a class="navbar-brand" href="#">Crud CodeIgniter</a>
+    </button> <a class="navbar-brand" href="<?php echo base_url(); ?>index.php/main/index">Crud CodeIgniter</a>
   </div>
  
   <!-- Agrupar los enlaces de navegación, los formularios y cualquier
@@ -34,8 +33,3 @@
     
   </div>
 </nav>
-
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.js"></script>
-<script type="text/javascript" src="<?php echo base_url(); ?>assets/js/bootstrap.min.js"></script>
-</body>
-</html>
